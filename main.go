@@ -15,8 +15,8 @@ func main() {
 		sumInt(ints),
 		sumFloat(floats))
 	fmt.Printf("Suma sabiendo tipo de dato %v y %v\n",
-		sumTodo[string, int64](ints),
-		sumTodo[string, float64](floats))
+		sumTodo(ints),
+		sumTodo(floats))
 }
 func sumInt(m map[string]int64) int64 {
 	var s int64
